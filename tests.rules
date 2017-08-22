@@ -1,0 +1,11 @@
+drop tcp any any -> any 443 (msg:"mujige53770 rule"; content:"GET /"; content:"Host: mujige53770.wixsite.com"; sid:20001; rev:1;)
+drop tcp any any -> any 443 (msg:"graphgame rule"; content:"GET /"; content:"Host: graphgame.net/"; sid:20002; rev:1;)
+drop tcp any any -> any 443 (msg:"sexking rule"; content:"GET /"; content:"Host: sex.com"; sid:20003; rev:1;)
+
+
+
+#can't operating#
+drop tcp any any -> any 443 (msg:"facebook-10019007882633 rule"; content:"GET /"; content:"Host: www.facebook.com/profile.php?id=100019007882633"; sid:20004; rev:1;)
+drop tcp any any -> any 443 (msg:"mujige53770 rule"; content:"GET /"; content:"Host: mujige53770.wixsite.com"; sid:20005; rev:1;)
+drop tcp any any -> any 443 (msg:"opioids-offshorepharmacy rule"; content:"GET /"; content:"Host: www.opioids.com/offshorepharmacy/index.html"; sid:20006; rev:1;)
+#---------------#

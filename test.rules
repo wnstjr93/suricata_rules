@@ -1,0 +1,46 @@
+drop tcp any any -> any 80 (msg:"hitomi rule"; content:"GET /"; content:"Host: hitomi.la"; sid:10001; rev:1;)
+drop tcp any any -> any 80 (msg:"kass rule"; content:"GET /"; content:"Host: kass.org.kp"; sid:10002; rev:1;)
+drop tcp any any -> any 80 (msg:"kcna rule"; content:"GET /"; content:"Host: kcna.kp"; sid:10002; rev:1;)
+drop tcp any any -> any 80 (msg:"kitri rule"; content:"GET /"; content:"Host: kitribob.wiki/wiki"; sid:10003; rev:1;)
+drop tcp any any -> any 80 (msg:"ks8282 rule"; content:"GET /"; content:"Host: ks8282.com"; sid:10004; rev:1;)
+drop tcp any any -> any 80 (msg:"linoit rule"; content:"GET /"; content:"linoit.com/users/men1212/canvases/19%EA%B8%88%20"; sid:10005; rev:1;)
+drop tcp any any -> any 80 (msg:"naevr"; content:"GET /"; content:"naevr.com/"; sid:10006; rev:1;)
+drop tcp any any -> any 80 (msg:"named rule"; content:"GET /"; content:"named.com/game/ladder/v2_index.php"; sid:10007; rev:1;)
+drop tcp any any -> any 80 (msg:"naver6 rule"; content:"GET /"; content:"Host: naver6.com"; sid:10008; rev:1;)
+drop tcp any any -> any 80 (msg:"onaratv rule"; content:"GET /"; content:"Host: onaratv.com/"; sid:10009; rev:1;)
+drop tcp any any -> any 80 (msg:"pornpros rule"; content:"GET /"; content:"Host:pornpros.com"; sid:10010; rev:1;)
+drop tcp any any -> any 80 (msg:"rodong rule"; content:"GET /"; content:"Host: rodong.rep.kp"; sid:10011; rev:1;)
+drop tcp any any -> any 80 (msg:"snoopspy/download rule"; content:"GET /"; content:"Host: snoopspy.com/download"; sid:10012; rev:1;)
+drop tcp any any -> any 80 (msg:"gilgil/streaming rule"; content:"GET /"; content:"Host: test.gilgil.net/streaming/test.mp4"; sid:10013; rev:1;)
+drop tcp any any -> any 80 (msg:"uriminzokkiri rule"; content:"GET /"; content:"Host: uriminzokkiri.com"; sid:10014; rev:1;)
+drop tcp any any -> any 80 (msg:"ilbe rule"; content:"GET /"; content:"Host: www.ilbe.com/ilbe"; sid:10015; rev:1;)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
